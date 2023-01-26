@@ -90,6 +90,7 @@ header .button{
     font-size: 12px;
     padding: 4px;
     border-radius: 6px;
+    border: none;
 }
 
 header .button i{
@@ -201,6 +202,4 @@ footer button{
 
 /* ANIMAZIONI -------------------------------------- */
 
-.button:hover{
 
-}
