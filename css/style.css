@@ -189,8 +189,9 @@ footer button{
 
 .footer-button-select{
     display: inline-block;
-    font-size: 8px;
+    font-size: 12px;
     margin-left: 14px;
+    color: #FFFFFF;
 }
 
 .footer-button-end{
@@ -202,4 +203,20 @@ footer button{
 
 /* ANIMAZIONI -------------------------------------- */
 
+
+.footer-button-select{
+    text-align: center;
+    background: none;
+    border: none;
+    transform: rotateX(180deg) translate(-50%,0);
+    position: relative;
+    width: 16px;
+}
+
+.footer-button-select option{
+    color: #FFFFFF;
+    border-radius: 6px;
+    border: 2px solid #FFFFFF;
+    background-color: #222222;
+}
 
