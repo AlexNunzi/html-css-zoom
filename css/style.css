@@ -220,3 +220,23 @@ footer button{
     background-color: #222222;
 }
 
+select:hover, .header-buttons button:hover{
+    color: #FF0000;
+    cursor: pointer;
+    transition-duration: 0.25s;
+}
+
+.footer-button-master:hover{
+    color: #FF0000;
+    cursor: pointer;
+    transition-duration: 0.25s;
+}
+
+.footer-button-end:hover{
+    text-decoration: underline;
+    color: #ff570f;
+    cursor: pointer;
+    
+}
+
+
