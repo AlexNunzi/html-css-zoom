@@ -6,26 +6,122 @@
 
 /* REGOLE DI DEBUG --------------------------------- */
 
+body.debug{
+    background-color: #000000;
+}
 
 /* HEADER ------------------------------------------ */
+
+.debug header{
+    background-color: brown;
+}
+.debug .horizontal-list li{
+    background-color: #FFFFFF;
+}
 
 
 /* MAIN -------------------------------------------- */
 
+.debug .main-container{
+    background-color: aqua;
+}
 
+.debug .main-content{
+    background-color: chocolate;
+}
+
+.debug .main-content-name{
+    background-color: #FFFFFF ;
+}
 /* FOOTER ------------------------------------------ */
 
+.debug footer{
+    background-color: burlywood;
+}
+
+.debug .col{
+    background-color: coral;
+}
 
 /* REGOLE DI CSS ----------------------------------- */
 
+body{
+    width: 100%;
+    height: 100vh;
+}
+.horizontal-list li{
+    display: inline-block;
+}
 
 /* HEADER ------------------------------------------ */
 
+header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-buttons{
+    margin: 5px 5px 0 0;
+}
+
+.header-buttons li{
+    margin-left: 2px;
+}
+
+.button{
+    font-size: 16px;
+    padding: 0px 16px;
+}
 
 /* MAIN -------------------------------------------- */
 
+.main-container{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.main-content{
+    margin: 2.5px;
+    height: 120px;
+    width: 240px;
+    position: relative;
+}
+
+.main-content-name{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 2.5px;
+}
 
 /* FOOTER ------------------------------------------ */
+
+footer{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
 
 
 /* ANIMAZIONI -------------------------------------- */
