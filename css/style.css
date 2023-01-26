@@ -113,7 +113,13 @@ header .button i{
     flex-wrap: wrap;
     overflow: auto;
     transform: translateY(80px);
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
 }
+
+.main-container::-webkit-scrollbar {
+    display: none;
+  }
 
 .main-content{
     background-image: url(https://picsum.photos/240/120);
